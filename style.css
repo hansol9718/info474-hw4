@@ -1,0 +1,51 @@
+body {
+    font: 12px Arial;
+}
+
+path {
+    stroke-width: 2;
+    fill: none;
+}
+
+.axis path,
+.axis line {
+    fill: none;
+    stroke: grey;
+    stroke-width: 1;
+    shape-rendering: crispEdges;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: left;
+    width: 200px;
+    height: 80px;
+    padding: 10px;
+    font: 14px sans-serif;
+    background: white;
+    border: 5px;
+    border-color: black;
+    pointer-events: none;
+    box-shadow: 1px 1px 2px 2px #888888;
+}
+
+b {
+    font: 20px sans-serif;
+}
+
+.box select {
+    background-color: #69b3a2;
+    color: white;
+    padding: 12px;
+    width: 250px;
+    border: none;
+    font-size: 20px;
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+    -webkit-appearance: button;
+    appearance: button;
+    outline: none;
+}
+
+.box select option {
+    padding: 30px;
+}
